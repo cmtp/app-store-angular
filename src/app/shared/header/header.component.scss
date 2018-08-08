@@ -1,0 +1,7 @@
+@import '../../../theme.scss';
+$primary: map-get($theme, primary);
+button.active,
+button:hover {
+    background: #fff;
+    color: mat-color($primary);
+}
